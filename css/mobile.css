@@ -1,0 +1,16 @@
+@media (max-width: 576px) {
+    .desktop-hidden {
+        display: unset;
+    }
+
+    .mobile-hidden {
+        display: none !important;
+    } 
+
+    .hamburder-menu {
+        display: flex !important;
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+}
