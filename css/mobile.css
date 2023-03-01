@@ -13,4 +13,52 @@
         border: none;
         background-color: transparent;
     }
+
+    /* * Home */
+    .home-wrapper {
+        flex-direction: column;
+    }
+
+    .home-wrapper .image {
+        order: 0;
+    }
+
+    .home-wrapper .description {
+        order: 1;
+        text-align: center;
+    }
+
+    .home-wrapper .description .title {
+        font-size: 24px;
+        line-height: 36px;
+        max-width: 220px;
+        margin: 0 auto;
+    }
+
+    .home-wrapper .description p {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 20px 0 35px;
+    }
+
+    .home-wrapper .description button {
+        width: 100%;
+    }
+
+    /* * Skils */
+    .skills-wrapper {
+        flex-direction: column;
+    }
+
+    .skills-wrapper .speaking {
+        min-width: unset;
+    }
+
+    .skills-wrapper .top {
+        flex-direction: column;
+    }
+
+    .skills-wrapper .bottom {
+        flex-direction: column-reverse !important;
+    }
 }
